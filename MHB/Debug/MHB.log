@@ -1,0 +1,268 @@
+﻿Build started 2014/3/12 9:35:29.
+     1>Project "C:\Users\Administrator\Desktop\滤波实验\Project\MHB\MHB\MHB.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MHB.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ComputationVor.cpp IOProc.cpp main.cpp MatrixProc.cpp MLS.cpp PCL.cpp
+         PCL.cpp
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(211): warning C4251: 'CGAL::Geomview_stream::bb' : class 'CGAL::Bbox_3' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\bbox_3.h(38) : see declaration of 'CGAL::Bbox_3'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::vertex_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::edge_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::face_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(222): warning C4251: 'CGAL::Geomview_stream::id' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>e:\cgal-4.3-build\include\cgal\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(29): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 e:\cgal-4.3-build\include\cgal\kd_tree_rectangle.h(120) : see reference to function template instantiation '_OutIt std::copy<double*,double*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=double *,
+                     _InIt=double *
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree_rectangle.h(116) : while compiling class template member function 'CGAL::Kd_tree_rectangle<FT_>::Kd_tree_rectangle(const CGAL::Kd_tree_rectangle<FT_> &)'
+                 with
+                 [
+                     FT_=double
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree.h(288) : see reference to class template instantiation 'CGAL::Kd_tree_rectangle<FT_>' being compiled
+                 with
+                 [
+                     FT_=double
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree.h(286) : while compiling class template member function 'CGAL::Kd_tree<SearchTraits,Splitter_,UseExtendedNode>::~Kd_tree(void)'
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Splitter_=Fair,
+                     UseExtendedNode=CGAL::Tag_true
+                 ]
+                 e:\cgal-4.3-build\include\cgal\internal\k_neighbor_search.h(51) : see reference to class template instantiation 'CGAL::Kd_tree<SearchTraits,Splitter_,UseExtendedNode>' being compiled
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Splitter_=Fair,
+                     UseExtendedNode=CGAL::Tag_true
+                 ]
+                 e:\cgal-4.3-build\include\cgal\orthogonal_k_neighbor_search.h(32) : see reference to class template instantiation 'CGAL::internal::K_neighbor_search<SearchTraits,Distance_,Splitter_,Tree_>' being compiled
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Distance_=Distance,
+                     Splitter_=Fair,
+                     Tree_=CGAL::Kd_tree<Traits,Fair,CGAL::Tag_true>
+                 ]
+                 c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.cpp(208) : see reference to class template instantiation 'CGAL::Orthogonal_k_neighbor_search<SearchTraits,Distance,Splitter>' being compiled
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Distance=Distance,
+                     Splitter=Fair
+                 ]
+         MLS.cpp
+         MatrixProc.cpp
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(211): warning C4251: 'CGAL::Geomview_stream::bb' : class 'CGAL::Bbox_3' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\bbox_3.h(38) : see declaration of 'CGAL::Bbox_3'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::vertex_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::edge_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::face_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(222): warning C4251: 'CGAL::Geomview_stream::id' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>e:\cgal-4.3-build\include\cgal\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(29): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(107): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(249): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(447): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(453): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(475): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\pcl 1.6.0\3rdparty\boost\include\boost\algorithm\string\detail\classification.hpp(102) : see reference to function template instantiation '_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 c:\program files (x86)\pcl 1.6.0\3rdparty\boost\include\boost\algorithm\string\classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)' being compiled
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\users\administrator\desktop\滤波实验\project\mhb\mhb\matrixproc.cpp(82) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[3]>(RangeT (&))' being compiled
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [3]
+                 ]
+         main.cpp
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(211): warning C4251: 'CGAL::Geomview_stream::bb' : class 'CGAL::Bbox_3' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\bbox_3.h(38) : see declaration of 'CGAL::Bbox_3'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::vertex_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::edge_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::face_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(222): warning C4251: 'CGAL::Geomview_stream::id' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>e:\cgal-4.3-build\include\cgal\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(29): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\main.cpp(95): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\main.cpp(106): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\main.cpp(122): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\main.cpp(148): warning C4129: 'L' : unrecognized character escape sequence
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\main.cpp(149): warning C4129: 's' : unrecognized character escape sequence
+         IOProc.cpp
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(211): warning C4251: 'CGAL::Geomview_stream::bb' : class 'CGAL::Bbox_3' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\bbox_3.h(38) : see declaration of 'CGAL::Bbox_3'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::vertex_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::edge_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::face_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(222): warning C4251: 'CGAL::Geomview_stream::id' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>e:\cgal-4.3-build\include\cgal\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(29): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\ioproc.cpp(39): warning C4101: 'val' : unreferenced local variable
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\ioproc.cpp(153): warning C4101: 'j' : unreferenced local variable
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 c:\program files (x86)\pcl 1.6.0\3rdparty\boost\include\boost\algorithm\string\detail\classification.hpp(102) : see reference to function template instantiation '_OutIt std::copy<const char*,char*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=char *,
+                     _InIt=const char *
+                 ]
+                 c:\program files (x86)\pcl 1.6.0\3rdparty\boost\include\boost\algorithm\string\classification.hpp(206) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT>::is_any_ofF<boost::iterator_range<IteratorT>>(const RangeT &)' being compiled
+                 with
+                 [
+                     CharT=char,
+                     IteratorT=const char *,
+                     RangeT=boost::iterator_range<const char *>
+                 ]
+                 c:\users\administrator\desktop\滤波实验\project\mhb\mhb\ioproc.cpp(49) : see reference to function template instantiation 'boost::algorithm::detail::is_any_ofF<CharT> boost::algorithm::is_any_of<const char[3]>(RangeT (&))' being compiled
+                 with
+                 [
+                     CharT=char,
+                     RangeT=const char [3]
+                 ]
+         ComputationVor.cpp
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(211): warning C4251: 'CGAL::Geomview_stream::bb' : class 'CGAL::Bbox_3' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\bbox_3.h(38) : see declaration of 'CGAL::Bbox_3'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::vertex_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::edge_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(212): warning C4251: 'CGAL::Geomview_stream::face_color' : class 'CGAL::Color' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 e:\cgal-4.3-build\include\cgal\io\color.h(32) : see declaration of 'CGAL::Color'
+     1>e:\cgal-4.3-build\include\cgal\io\geomview_stream.h(222): warning C4251: 'CGAL::Geomview_stream::id' : class 'std::map<_Kty,_Ty>' needs to have dll-interface to be used by clients of class 'CGAL::Geomview_stream'
+                 with
+                 [
+                     _Kty=std::string,
+                     _Ty=int
+                 ]
+     1>e:\cgal-4.3-build\include\cgal\gmp.h(2177): warning C4146: unary minus operator applied to unsigned type, result still unsigned
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(29): warning C4800: 'int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(62): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\pcl.h(63): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : see declaration of 'sprintf'
+     1>c:\users\administrator\desktop\滤波实验\project\mhb\mhb\computationvor.cpp(7): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2227): warning C4996: 'std::_Copy_impl': Function call with parameters that may be unsafe - this call relies on the caller to check that the passed values are correct. To disable this warning, use -D_SCL_SECURE_NO_WARNINGS. See documentation on how to use Visual C++ 'Checked Iterators'
+                 c:\program files (x86)\microsoft visual studio 10.0\vc\include\xutility(2212) : see declaration of 'std::_Copy_impl'
+                 e:\cgal-4.3-build\include\cgal\kd_tree_rectangle.h(120) : see reference to function template instantiation '_OutIt std::copy<double*,double*>(_InIt,_InIt,_OutIt)' being compiled
+                 with
+                 [
+                     _OutIt=double *,
+                     _InIt=double *
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree_rectangle.h(116) : while compiling class template member function 'CGAL::Kd_tree_rectangle<FT_>::Kd_tree_rectangle(const CGAL::Kd_tree_rectangle<FT_> &)'
+                 with
+                 [
+                     FT_=double
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree.h(288) : see reference to class template instantiation 'CGAL::Kd_tree_rectangle<FT_>' being compiled
+                 with
+                 [
+                     FT_=double
+                 ]
+                 e:\cgal-4.3-build\include\cgal\kd_tree.h(286) : while compiling class template member function 'CGAL::Kd_tree<SearchTraits,Splitter_>::~Kd_tree(void)'
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Splitter_=Fair
+                 ]
+                 c:\users\administrator\desktop\滤波实验\project\mhb\mhb\computationvor.cpp(173) : see reference to class template instantiation 'CGAL::Kd_tree<SearchTraits,Splitter_>' being compiled
+                 with
+                 [
+                     SearchTraits=Traits,
+                     Splitter_=Fair
+                 ]
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\MHB.exe.embed.manifest.res" Debug\MHB_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Desktop\滤波实验\Project\MHB\Debug\MHB.exe" /INCREMENTAL /NOLOGO "libboost_system-vc100-mt-gd-1_47.lib" "libboost_filesystem-vc100-mt-gd-1_47.lib" "libboost_thread-vc100-mt-gd-1_47.lib" "libboost_date_time-vc100-mt-gd-1_47.lib" "libboost_iostreams-vc100-mt-gd-1_47.lib" "CGAL_Core-vc100-mt-4.3.lib" "CGAL_Core-vc100-mt-gd-4.3.lib" "CGAL_ImageIO-vc100-mt-4.3.lib" "CGAL_ImageIO-vc100-mt-gd-4.3.lib" "CGAL_Qt4-vc100-mt-4.3.lib" "CGAL_Qt4-vc100-mt-gd-4.3.lib" "CGAL-vc100-mt-4.3.lib" "CGAL-vc100-mt-gd-4.3.lib" "libmpfr-4.lib" "libgmp-10.lib" libatlas.lib libcblas.lib libf77blas.lib liblapack.lib libmetis.lib libtaucs.lib libtstatlas.lib vcf2c.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MHB.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Administrator\Desktop\滤波实验\Project\MHB\Debug\MHB.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Desktop\滤波实验\Project\MHB\Debug\MHB.lib" /MACHINE:X86 Debug\MHB.exe.embed.manifest.res
+         Debug\ComputationVor.obj
+         Debug\IOProc.obj
+         Debug\main.obj
+         Debug\MatrixProc.obj
+         Debug\MLS.obj
+         Debug\PCL.obj
+         LINK : program database C:\Users\Administrator\Desktop\MHB\Debug\MHB.pdb missing; performing full link
+     1>LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+     1>LINK : fatal error LNK1123: failure during conversion to COFF: file invalid or corrupt
+     1>Done Building Project "C:\Users\Administrator\Desktop\滤波实验\Project\MHB\MHB\MHB.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:40.65
